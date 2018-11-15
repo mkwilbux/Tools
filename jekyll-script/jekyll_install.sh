@@ -9,7 +9,7 @@ function update_fresh {
 
 # change this link to wherever your pkgs are
 function jekyll_install {
-	software=($(curl -sSL https://raw.githubusercontent.com/mkwilbux/Tools/blob/master/jekyll-script/jekyll_pkgs)
+	software=($(curl -sSL https://raw.githubusercontent.com/mkwilbux/Tools/blob/master/jekyll-script/jekyll_pkgs))
 
 for package in ${software[*]}
 do
